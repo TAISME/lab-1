@@ -1,0 +1,9 @@
+
+body { font-family: Verdana, Arial, sans-serif; font-size: 1em; }
+h1 { color: purple; font-family: Arial, sans-serif; }
+h2 { color: teal; font-family: Arial, sans-serif; }
+h3 { color: #000; font-family: Arial, sans-serif; }
+.special { color: #ff7f2a; font-weight: bold; }
+aside { font-style: italic; }
+table, th, td { border: 1px solid #333; }
+footer { font-style: italic; text-align: center; }

@@ -14,7 +14,7 @@
         <legend>Student details</legend>
         <p>
             <label for="id">Student ID</label>
-            <input type="text" name="id" maxlength="20" size="10" pattern=".{7,10}" required="required">
+            <input type="text" name="id" maxlength="20" size="10" pattern="\d{7,10}" required="required">
 
         </p>
         <p>
@@ -72,10 +72,10 @@
     <fieldset>
         <legend>preferred Date/Time</legend>
         <label for="date">Date</label>
-        <input type="date" name="date" id="data" placeholder="dd/mm/yyyy">
+        <input type="text" name="date" id="data" placeholder="dd/mm/yyyy" pattern="\d{2}/\d{2}/\d{4}">
 
         <label for="time">Time</label>
-        <input type="time" name="time" id="time" placeholder="00 00">
+        <input type="text" name="time" id="time" placeholder="00:00" pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]">
     </fieldset>
     <input type="submit" value="book">
     <input type="reset" value="reset form">
